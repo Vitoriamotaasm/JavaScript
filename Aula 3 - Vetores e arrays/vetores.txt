@@ -1,0 +1,39 @@
+Vetores ou arrays
+Arrays sao um tipo de lista, ou matriz de variaveis, onde cada variavel possui um indice. Os valores podem ser de varios tipos. Array é uma caixa com varias caixas dentro e cada uma contendo um valor.
+
+
+Array
+o array deve ser declarado entre colchetes, e podem guardar qualquer valor dentro de seus indices: inclusive outros arrays.
+Ex: let array = ['string',1,true,false]
+Obs: O indice so é acessado por um numero inteiro, onde 0 é o primero indice. Cada indice é separado por virgula.
+Arrays tambem podem abranger outras arrays.
+
+
+Manipulando arrays
+forEach() - itera um array;
+push() - add item no final do array;
+pop() - remove item no final do array;
+shift() - remove item no inicio do array;
+unshift() - add item no inicio do array;
+indexOf() - retorna o indice de um valor;
+splice() - remove ou substitui um item pelo indice;
+slice() - retorna uma parte de um array existente;
+
+
+O que sao objetos?
+Dados que possuem propriedades e valores que definem suas caracteristicas. Deve ser declarado entre chaves '{}'.
+ex: uma xicara azul. ela tem cor, pode ter varios tamanhos e funcoes.
+pode ser declarada:
+var xicara = {
+    cor: 'azul',
+    tamanho: 'p',
+    funcao: tomarCafe()
+}
+
+
+Manipulando objetos
+As propriedades de objetos podem ser atribuidas a variaveis, facilitando a manipulacao do objeto. chamamos isso de desestruturacao. 
+ex: var xicara = {cor: 'azul', tamanho: 'p', funcao: tomarCafe()}
+var cor = xicara.cor;
+var tamanho = xicara.tamanho;
+var funcao = tomarCafe();

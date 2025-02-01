@@ -1,0 +1,70 @@
+    Tipagem
+    A tipagem funciona como uma regra de uso de dados, quanto mais forte for a tipagem, mais obrigatorio é a declaracao do tipo de dado.
+    Ex: var numero 1;
+    O JavaScript já converte o valor 1 para o tipo Number.
+
+
+    Tipos primitivos de variaveis
+    As variaveis em JavaScript podem guardar tipos de dados que chamamos de tipos primitivos
+    Tipos: Boolean, null, undefined, number, string, array, object, function.
+
+
+    O que sao variaveis?
+    Sao dados que variam. funcionam como uma caixa que guarda valores diversos, como lista de nomes, cartoes com numeroa, objetos no geral.
+    Modos de declaracao:
+    Var - escopo global e local, pode ter seu valor alterado, se nao tiver um valor inicial sera tratada como null.
+    Let - escopo local de bloco, pode ter seu valor alterado, se nao tiver um valor inicial sera tratada como null.
+    Const - escopo local de bloco, somente leitura, o valor inicial obrigatorio e nao pode ser alterado.
+
+
+    Escopo
+    O escopo em js define a limitacao e visibilidade de um bloco de codigo.
+    Escopo Global - quando a variavel é declarada fora de qualquer bloco, sua visibilidade fica disponivel em todo o codigo.
+    Escopo local - quando a variavel é declarada dentro de um bloco, sua visibilidade pode ficar disponivel ou nao.
+
+
+    Regras do uso de variaveis
+    - Iniciar com letras, underline ou cifrao; nao pode iniciar com numeros.
+    - Nao pode usar espacos.
+    - Nao pode usar palarvas reservadas ex: function.
+    - Declarar variaveis no topo do bloco de codigo.
+
+
+    Atribuicao
+    O sinal de igualdade significa atribuicao.
+    como declarar: var nome = 'meu nome';
+    forma de ler: variavel nome recebe o valor meunome.
+
+
+    Comparacao
+    usamos ==
+    Como declarar: '0' == 0; 
+    como ler: '0' tem o valor igual a 0?
+    so pode ser respondido com sim e nao.
+
+
+    Comparacao identica
+    mesma coisa que a comparacao normal, mas é usado 3 sinais de igual. (===).
+
+
+    Operadores Aritmeticos
+    + adicao;
+    - subtracao;
+    * multiplicacao;
+    / divisao real;
+    % divisao inteira/resto da divisao;
+    ** potenciacao;
+
+
+    Operadores Relacionais
+    Sao tipos de operadores que consultam a relacao entre valores.
+    > maior que;
+    < menor que;
+    >= maior ou igual a;
+    <= menor ou igual a;
+
+
+    Operadores logicos
+    && - "e" - considera que todos os valores sejam true;
+    || - "ou" - considera que qualquer valor seja true;
+    ! - "nao" - inverte o valor de true para false ou vice-versa;
